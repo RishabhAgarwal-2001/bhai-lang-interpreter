@@ -12,6 +12,7 @@ repositories {
 dependencies {
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.32'
     annotationProcessor('org.projectlombok:lombok:1.18.32')
+    implementation group: 'com.google.inject', name: 'guice', version: '5.0.1'
 
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'

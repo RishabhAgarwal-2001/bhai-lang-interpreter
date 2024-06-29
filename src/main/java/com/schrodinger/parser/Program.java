@@ -1,2 +1,10 @@
-package com.schrodinger.parser;public class Program {
+package com.schrodinger.parser;
+
+import java.util.List;
+
+public class Program {
+    public ASTNode getProgram() {
+        return ASTNode.builder().type(NodeType.PROGRAM)
+                .body(List.of(DependencyModule.getInitStatement().getStatement())).build();
+    }
 }
