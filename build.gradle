@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group = 'com.schrodinger'
-version = '1.0-SNAPSHOT'
+group = 'com.bhailang'
+version = '1.0'
 
 repositories {
     mavenCentral()
@@ -22,6 +22,8 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+archivesBaseName = 'blint'
 
 jar {
     manifest {
