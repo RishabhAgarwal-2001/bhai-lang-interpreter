@@ -61,7 +61,7 @@ public class PrimaryExpressionTest {
 
         assertNotNull(node);
         assertEquals(NodeType.NUMERIC_LITERAL, node.getType());
-        assertEquals(Float.parseFloat("-123.4"), node.getNumberValue());
+        assertEquals(Double.parseDouble("-123.4"), node.getNumberValue());
     }
 
     @Test

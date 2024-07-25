@@ -25,7 +25,7 @@ public class NumericLiteralTest {
 
         assert numericLiteralNode != null;
         assert numericLiteralNode.getType() == NodeType.NUMERIC_LITERAL;
-        assert numericLiteralNode.getNumberValue() == Float.parseFloat(stringToTokenize);
+        assert numericLiteralNode.getNumberValue() == Double.parseDouble(stringToTokenize);
     }
 
     @Test
