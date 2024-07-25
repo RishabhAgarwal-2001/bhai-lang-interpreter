@@ -17,7 +17,7 @@ public class ASTNode {
     private ASTNode left;
     private ASTNode right;
     private String stringValue;
-    private double numberValue;
+    private Double numberValue;
     private ASTNode id;
     private ASTNode init;
     private List<ASTNode> declarations;

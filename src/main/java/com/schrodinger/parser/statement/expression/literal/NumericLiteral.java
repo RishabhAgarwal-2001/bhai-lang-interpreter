@@ -14,6 +14,6 @@ public class NumericLiteral extends Literal {
     @Override
     public ASTNode getLiteral() {
         final Token token = tokenExecutor.eatTokenAndForwardLookahead(TokenType.NUMBER_TYPE);
-        return ASTNode.builder().type(NodeType.NUMERIC_LITERAL).numberValue(Float.parseFloat(token.getValue())).build();
+        return ASTNode.builder().type(NodeType.NUMERIC_LITERAL).numberValue(Double.parseDouble(token.getValue())).build();
     }
 }

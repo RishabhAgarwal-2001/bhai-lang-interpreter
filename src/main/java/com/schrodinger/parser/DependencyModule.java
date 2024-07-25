@@ -8,7 +8,6 @@ import com.schrodinger.parser.statement.expression.literal.NumericLiteral;
 import com.schrodinger.parser.statement.expression.literal.StringLiteral;
 import com.schrodinger.tokenizer.Tokenizer;
 import com.schrodinger.tokenizer.TokenizerImpl;
-import org.checkerframework.checker.units.qual.A;
 
 import java.util.Objects;
 
