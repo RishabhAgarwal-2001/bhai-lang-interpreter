@@ -1,13 +1,14 @@
 package parser.statement;
 
-import com.schrodinger.parser.ASTNode;
-import com.schrodinger.parser.DependencyModule;
-import com.schrodinger.parser.NodeType;
-import com.schrodinger.parser.TokenExecutor;
-import com.schrodinger.tokenizer.TokenType;
-import com.schrodinger.tokenizer.Tokenizer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.bhailang.parser.ASTNode;
+import com.bhailang.parser.DependencyModule;
+import com.bhailang.parser.NodeType;
+import com.bhailang.parser.TokenExecutor;
+import com.bhailang.tokenizer.TokenType;
+import com.bhailang.tokenizer.Tokenizer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

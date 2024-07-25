@@ -1,12 +1,13 @@
 package tokenizer;
 
-import com.schrodinger.tokenizer.Token;
-import com.schrodinger.tokenizer.TokenType;
-import com.schrodinger.tokenizer.TokenizerImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+
+import com.bhailang.tokenizer.Token;
+import com.bhailang.tokenizer.TokenType;
+import com.bhailang.tokenizer.TokenizerImpl;
 
 public class TokenizerImplTest {
 

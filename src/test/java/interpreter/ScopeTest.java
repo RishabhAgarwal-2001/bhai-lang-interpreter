@@ -1,8 +1,10 @@
 package interpreter;
 
-import com.schrodinger.interpreter.Scope;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.bhailang.interpreter.Scope;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ScopeTest {

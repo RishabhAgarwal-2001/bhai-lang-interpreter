@@ -1,13 +1,14 @@
 package parser;
 
-import com.schrodinger.parser.ASTNode;
-import com.schrodinger.parser.DependencyModule;
-import com.schrodinger.parser.TokenExecutor;
-import com.schrodinger.tokenizer.Token;
-import com.schrodinger.tokenizer.Tokenizer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
+
+import com.bhailang.parser.ASTNode;
+import com.bhailang.parser.DependencyModule;
+import com.bhailang.parser.TokenExecutor;
+import com.bhailang.tokenizer.Token;
+import com.bhailang.tokenizer.Tokenizer;
 
 import java.util.List;
 

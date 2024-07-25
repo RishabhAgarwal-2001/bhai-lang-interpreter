@@ -1,14 +1,15 @@
 package parser.statement.expression.literal;
 
-import com.schrodinger.parser.ASTNode;
-import com.schrodinger.parser.DependencyModule;
-import com.schrodinger.parser.NodeType;
-import com.schrodinger.parser.TokenExecutor;
-import com.schrodinger.tokenizer.TokenType;
-import com.schrodinger.tokenizer.Tokenizer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+
+import com.bhailang.parser.ASTNode;
+import com.bhailang.parser.DependencyModule;
+import com.bhailang.parser.NodeType;
+import com.bhailang.parser.TokenExecutor;
+import com.bhailang.tokenizer.TokenType;
+import com.bhailang.tokenizer.Tokenizer;
 
 public class NumericLiteralTest {
 
